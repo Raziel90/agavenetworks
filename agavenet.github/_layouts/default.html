@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+{% capture banner_title %}
+{{ page.title }}
+{% endcapture %}
+<html>
+	<head>
+		<title>{{page.title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">{{page.title | upcase }}</a></h1>
+						{%if page.show_menu%}
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+						{%endif%}
+					</header>
+
+				<!-- Menu -->
+				{%if page.show_menu%}
+					{%include menu.html%}
+				{%endif%}
+				<!-- Banner -->
+					{%include banner.html title=banner_title description="Making Waste a thing of the past"%}
+					{{content}}
+			</div>
+
+		<!-- Scripts -->
+		{%include scripts.html%}
+
+	</body>
+</html>
