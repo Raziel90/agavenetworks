@@ -4,15 +4,15 @@
         <p>{{page.team_description}}</p>
         <div class="spotlight">
             <!-- <img src="images/pic01.jpg"  alt="Avatar" border-radius="100%" width= "200em">             -->
-            <div class="row">
+            <div class="row ">
 
 
                 {%for member in site.data.team_members%}
-                
-                    <div class="spotlight">
+                <div class="column">
+                    <div class="spotlight col-4">
                         <div class="card border-0 shadow">
-                        <img src="images/team/{{member.image}}"  alt="Avatar" border-radius="100%" width= "200em">
-                        <div class="card-body text-center">
+                        <img src="images/team/{{member.image}}" alt="Avatar" border-radius="100%" width= "200em">
+                        <div class="card-body text-center" margin-bottom="0px">
                             <h5 class="card-title mb-0">{{member.name | | upcase }}</h5>
                             <div class="card-text text-black-50">{{member.role | replace: ', ', ',&#13;&#10;' | newline_to_br}}</div>
                             <a href="mailto:{{member.email}}" class="icon solid fa-lg fa-fw fa-envelope " padding-right="1em" ></a>
@@ -20,7 +20,7 @@
                         </div>
                         </div>
                     </div>
-                
+                </div>
                 {%endfor%}
             </div>
         </div>
