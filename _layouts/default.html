@@ -2,6 +2,11 @@
 {% capture banner_title %}
 {{ page.title }}
 {% endcapture %}
+
+{% capture banner_subtitle %}
+{{ page.subtitle }}
+{% endcapture %}
+
 <html>
 	<head>
 		<title>{{page.title}}</title>
@@ -14,15 +19,20 @@
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">{{page.title | upcase }}</a></h1>
-						{%if page.show_menu%}
+				<header id="header" class="alt">
+					<h1>
+						<a href="index.html">
+							<!-- <div class="icon"> -->
+							<img class="icon" src="images/vector/agave_logo.svg" alt="on" style="vertical-align:middle" width="30px" height="30px"/>
+							{{page.title | upcase }}
+						</a>
+					</h1>
+					{%if page.show_menu%}
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
-						{%endif%}
+					{%endif%}
 					</header>
 
 				<!-- Menu -->
@@ -30,7 +40,7 @@
 					{%include menu.html%}
 				{%endif%}
 				<!-- Banner -->
-					{%include banner.html title=banner_title description="Making Waste a thing of the past"%}
+					{%include banner.html title=banner_title description=banner_subtitle%}
 					{{content}}
 			</div>
 

@@ -1,4 +1,4 @@
-<section id={{include.id}} class="wrapper alt {{include.style}}">
+<section id={{include.id}} class="wrapper {%if include.is_alt=="True"%}alt{%endif%} {{include.style}}">
     <div class="inner">
         <h2 class="major">Team</h2>
         <p>{{page.team_description}}</p>

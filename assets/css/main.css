@@ -248,6 +248,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2373,7 +2374,9 @@ input, select, textarea {
 		}
 
 /* Icon */
-
+	img.icon {
+		margin-right: .5em;
+	}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2411,7 +2414,9 @@ input, select, textarea {
 		}
 
 /* Image */
-
+img.img-p {
+    margin: 0 1em 0 1em;
+}
 	.image {
 		border-radius: 5px;
 		border: 0;
