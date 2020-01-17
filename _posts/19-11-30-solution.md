@@ -11,9 +11,4 @@ show_learnmore: True
 ![My helpful screenshot](/images/vector/agave_system.svg){:height="250px" width="450px" align="left"}
 </div> -->
 
-An apple is a sweet, edible fruit produced by an apple tree.
-Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.
+Agave network pursues to eliminate the generation of industrial and commercial waste by enhancing an overall cross-organisational communication system. This is achieved by connecting organizations across the supply chain, regardless of their industry, into an artificial intelligence powered platform where critical insights of actual supply and demand of goods are generated. By coordinating industry information with the support of the current individual resource planning platforms, overall supply-chain production management is consociated into its optimal and equilibrium point, reducing direct costs and a status of zero-waste is achieved.

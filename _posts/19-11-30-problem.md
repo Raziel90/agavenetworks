@@ -10,9 +10,4 @@ show_learnmore: True
 <!-- <div style="float:left;margin:0 20px 20px 0" markdown="1">
 ![TWO BILLION TONNES OF WASTE PER YEAR BETWEEN 7.6 BILLION PEOPLE](/images/vector/agave_problem.svg){:height="250px" width="450px" align="left"}
 </div> -->
-An apple is a sweet, edible fruit produced by an apple tree.
-Apple trees are cultivated worldwide, and are the most widely grown species in
-the genus Malus. The tree originated in Central Asia, where its wild ancestor,
-Malus sieversii, is still found today. Apples have been grown for thousands of
-years in Asia and Europe, and were brought to North America by European
-colonists.
+Waste is one of the factors that contribute the most to environmental degradation by diverse critical means. Each year 2.01 billion tonnes of waste are generated on a global scale, from which commercial and industrial waste account for nearly 50% of the total. (WorldBank, 2016). Regardless of the industry (food, construction, plastics, fashion, retail, etc) every player on the supply-chain will have a type of waste; causing not only environmental damage but also tremendous financial losses. Among other reasons, this is caused by a poor or even nonexistent cross-organisational information flow, resulting in an overall decrease of resource management effectiveness. 
