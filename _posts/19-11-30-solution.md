@@ -5,7 +5,7 @@ date: 2019-11-30 00:00:01
 style: "style2"
 image_link: "/images/vector/agave_system.svg"
 is_alt: True
-show_learnmore: True
+show_learnmore: False
 ---
 <!-- <div style="float:left;margin:0 20px 20px 0" markdown="1">
 ![My helpful screenshot](/images/vector/agave_system.svg){:height="250px" width="450px" align="left"}
